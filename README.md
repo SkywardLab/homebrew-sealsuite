@@ -2,6 +2,8 @@
 
 Public release assets for SealSuite.
 
+SealSuite (Corplink) is a standalone VPN client with a bundled WireGuard core. It logs in to SealSuite, handles 2FA, lets you choose a VPN server, starts the tunnel, and cleans up the session on exit.
+
 ## Download
 
 - Latest release: https://github.com/SkywardLab/SealSuite-releases/releases/latest
@@ -51,7 +53,7 @@ Examples:
 
 ### 2. Prepare the configuration file
 
-The packaged archive includes a starter `config.json` beside the binary.
+Each packaged archive includes a starter `config.json` beside the binary.
 
 Default configuration paths:
 
@@ -67,6 +69,29 @@ Common fields:
 - `username`
 - `password`
 - `platform`
+
+Required fields:
+
+| Field | Description |
+| --- | --- |
+| `company_name` | SealSuite company code used to discover the server URL. Use this or `server`. |
+| `username` | SealSuite username. |
+| `password` | SealSuite password. |
+| `platform` | Optional login method. Defaults to `ldap`. |
+
+Useful optional fields:
+
+| Field | Default | Description |
+| --- | --- | --- |
+| `vpn_server_name` | `null` | Exact VPN `en_name` to select. |
+| `vpn_select_strategy` | GUI selection. | `default` chooses the first pingable server; `latency` chooses the lowest-latency server. |
+| `use_vpn_dns` | `false` | Applies VPN DNS while the tunnel runs. |
+| `auto_setup_routes` | `true` | Automatically configures routes from the VPN response. |
+| `route_mode` | `split` | Route mode saved in config. |
+| `vpn_disallowed_routes` | `null` | CIDR routes to keep in WireGuard allowed IPs while skipping OS route setup. |
+| `verify_tls` | `true` | TLS certificate verification. |
+| `debug_wg` | `false` | Enables verbose WireGuard logs. |
+| `state` | `null` | Login state cache. Set to `Init` to force a fresh login. |
 
 The app may add fields such as `code` and `activation_key` after the first successful run.
 
