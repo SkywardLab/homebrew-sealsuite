@@ -63,13 +63,6 @@ Default configuration paths:
 
 Copy the starter file into the default path, then edit the values for your account.
 
-Common fields:
-
-- `company_name`
-- `username`
-- `password`
-- `platform`
-
 Required fields:
 
 | Field | Description |
