@@ -1,73 +1,88 @@
 # SealSuite Releases
 
-Public release assets for SealSuite.
+Public binary downloads for SealSuite.
 
-SealSuite (Corplink) is a standalone VPN client with a bundled WireGuard core. It logs in to SealSuite, handles 2FA, lets you choose a VPN server, starts the tunnel, and cleans up the session on exit.
+SealSuite is a standalone SealSuite (Corplink) VPN client with a bundled WireGuard core. It signs in to SealSuite, handles 2FA, lets you choose a VPN server, starts the tunnel, and cleans up the session on exit.
 
-## Download
+## Latest release
 
-- Latest release: https://github.com/SkywardLab/SealSuite-releases/releases/latest
-- All releases: https://github.com/SkywardLab/SealSuite-releases/releases
+Latest version: `v1.5.1`
 
-Pick the archive that matches your platform and CPU architecture.
+Release page: https://github.com/SkywardLab/SealSuite-releases/releases/tag/v1.5.1
 
-### Asset names
+All releases: https://github.com/SkywardLab/SealSuite-releases/releases
 
-CLI archives:
-- `SealSuite-CLI-vX.Y.Z-linux-amd64.tar.xz`
-- `SealSuite-CLI-vX.Y.Z-linux-arm64.tar.xz`
-- `SealSuite-CLI-vX.Y.Z-macos-arm64.tar.xz`
-- `SealSuite-CLI-vX.Y.Z-macos-x86_64.tar.xz`
-- `SealSuite-CLI-vX.Y.Z-windows-amd64.zip`
-- `SealSuite-CLI-vX.Y.Z-windows-arm64.zip`
+Choose the GUI package for the desktop app. Choose the CLI package for terminal or service usage.
 
-GUI archives:
-- `SealSuite-GUI-vX.Y.Z-linux-amd64.tar.xz`
-- `SealSuite-GUI-vX.Y.Z-linux-arm64.tar.xz`
-- `SealSuite-GUI-vX.Y.Z-macos-arm64.tar.xz`
-- `SealSuite-GUI-vX.Y.Z-macos-x86_64.tar.xz`
-- `SealSuite-GUI-vX.Y.Z-windows-amd64.zip`
-- `SealSuite-GUI-vX.Y.Z-windows-arm64.zip`
+## Downloads
 
-Arch Linux package:
-- one `*.pkg.tar.zst` artifact on the release page
+### GUI packages
 
-## Version notes
+| Platform | CPU | Asset |
+| --- | --- | --- |
+| Linux | amd64 | [`SealSuite-GUI-v1.5.1-linux-amd64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-GUI-v1.5.1-linux-amd64.tar.xz) |
+| Linux | arm64 | [`SealSuite-GUI-v1.5.1-linux-arm64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-GUI-v1.5.1-linux-arm64.tar.xz) |
+| macOS | Apple Silicon | [`SealSuite-GUI-v1.5.1-macos-arm64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-GUI-v1.5.1-macos-arm64.tar.xz) |
+| macOS | Intel | [`SealSuite-GUI-v1.5.1-macos-x86_64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-GUI-v1.5.1-macos-x86_64.tar.xz) |
+| Windows | amd64 | [`SealSuite-GUI-v1.5.1-windows-amd64.zip`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-GUI-v1.5.1-windows-amd64.zip) |
+| Windows | arm64 | [`SealSuite-GUI-v1.5.1-windows-arm64.zip`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-GUI-v1.5.1-windows-arm64.zip) |
 
-- Each release uses a Git tag such as `v1.2.5`.
-- The tag appears in every archive name.
-- CLI and GUI packages ship as separate archives.
-- Release notes live on the GitHub release page for each tag.
+### CLI packages
 
-## Usage
+| Platform | CPU | Asset |
+| --- | --- | --- |
+| Linux | amd64 | [`SealSuite-CLI-v1.5.1-linux-amd64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-CLI-v1.5.1-linux-amd64.tar.xz) |
+| Linux | arm64 | [`SealSuite-CLI-v1.5.1-linux-arm64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-CLI-v1.5.1-linux-arm64.tar.xz) |
+| macOS | Apple Silicon | [`SealSuite-CLI-v1.5.1-macos-arm64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-CLI-v1.5.1-macos-arm64.tar.xz) |
+| macOS | Intel | [`SealSuite-CLI-v1.5.1-macos-x86_64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-CLI-v1.5.1-macos-x86_64.tar.xz) |
+| Windows | amd64 | [`SealSuite-CLI-v1.5.1-windows-amd64.zip`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-CLI-v1.5.1-windows-amd64.zip) |
+| Windows | arm64 | [`SealSuite-CLI-v1.5.1-windows-arm64.zip`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-CLI-v1.5.1-windows-arm64.zip) |
 
-### 1. Download and extract
+### Arch Linux package
 
-Unpack the archive into a local folder.
+| Package | Asset |
+| --- | --- |
+| Runtime package | [`sealsuite-1.5.1-1-x86_64.pkg.tar.zst`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/sealsuite-1.5.1-1-x86_64.pkg.tar.zst) |
+| Debug package | [`sealsuite-debug-1.5.1-1-x86_64.pkg.tar.zst`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/sealsuite-debug-1.5.1-1-x86_64.pkg.tar.zst) |
 
-Examples:
+## Run SealSuite
 
-- Linux: `tar -xJf SealSuite-GUI-vX.Y.Z-linux-amd64.tar.xz`
-- macOS: `tar -xJf SealSuite-GUI-vX.Y.Z-macos-arm64.tar.xz`
-- Windows: extract the `.zip` archive with Explorer or PowerShell
+Extract the archive and keep `config.json` beside the binary.
 
-### 2. Prepare the configuration file
+macOS or Linux:
 
-Each packaged archive includes a starter `config.json` beside the binary.
+```bash
+./SealSuite ./config.json
+```
 
-Default configuration paths:
+Windows PowerShell:
 
-- Windows: `%APPDATA%\Corplink\config.json`
-- macOS: `~/.config/corplink/config.json`
-- Linux: `~/.config/corplink/config.json`
+```powershell
+.\SealSuite.exe .\config.json
+```
 
-Copy the starter file into the default path, then edit the values for your account.
+The GUI relaunches itself with administrator privileges when WireGuard or DNS setup needs system networking access. The CLI also relaunches with root or administrator privileges when required.
+
+## Configuration
+
+Minimal `config.json`:
+
+```json
+{
+  "company_name": "company code",
+  "username": "your_name",
+  "password": "your_password"
+}
+```
+
+The client saves generated fields back into the same config file, including `server`, `device_id`, WireGuard keys, login `state`, and saved TOTP secrets.
 
 Required fields:
 
 | Field | Description |
 | --- | --- |
 | `company_name` | SealSuite company code used to discover the server URL. Use this or `server`. |
+| `server` | Direct SealSuite server URL. Use this or `company_name`. |
 | `username` | SealSuite username. |
 | `password` | SealSuite password. |
 | `platform` | Optional login method. Defaults to `ldap`. |
@@ -77,45 +92,62 @@ Useful optional fields:
 | Field | Default | Description |
 | --- | --- | --- |
 | `vpn_server_name` | `null` | Exact VPN `en_name` to select. |
-| `vpn_select_strategy` | GUI selection. | `default` chooses the first pingable server; `latency` chooses the lowest-latency server. |
+| `vpn_select_strategy` | GUI selection, or `default` in non-TTY runs | `default` chooses the first pingable server; `latency` chooses the lowest-latency server. |
 | `use_vpn_dns` | `false` | Applies VPN DNS while the tunnel runs. |
 | `auto_setup_routes` | `true` | Automatically configures routes from the VPN response. |
 | `route_mode` | `split` | Route mode saved in config. |
-| `vpn_disallowed_routes` | `null` | CIDR routes to keep in WireGuard allowed IPs while skipping OS route setup. |
+| `vpn_disallowed_routes` | `null` | CIDR routes carved out of WireGuard allowed IPs and OS route setup. |
+| `force_protocol` | `null` | Optional WireGuard transport override. Use `udp` or `tcp`. |
 | `verify_tls` | `true` | TLS certificate verification. |
 | `debug_wg` | `false` | Enables verbose WireGuard logs. |
 | `state` | `null` | Login state cache. Set to `Init` to force a fresh login. |
+| `socks5_listen` | `null` | Enables userspace netstack mode and exposes a SOCKS5 proxy at this address. |
+| `socks5_username` | `null` | Optional SOCKS5 username. Empty value allows no-auth clients. |
+| `socks5_password` | `null` | Optional SOCKS5 password used when `socks5_username` is set. |
 
-The app may add fields such as `code` and `activation_key` after the first successful run.
+Environment variables override selected config values:
 
-### 3. Start the client
+| Environment variable | Config field |
+| --- | --- |
+| `CORPLINK_SERVER` | `server` |
+| `CORPLINK_USERNAME` | `username` |
+| `CORPLINK_PASSWORD` | `password` |
+| `CORPLINK_PLATFORM` | `platform` |
 
-GUI:
+## First login
 
-- Linux/macOS: run the GUI binary from the extracted folder
-- Windows: run `SealSuite.exe`
+On first login, SealSuite may ask for QR-based third-party authentication. The GUI shows a QR dialog. The CLI prints an ASCII QR code and login URL.
 
-CLI:
+After a TOTP secret is saved into `code`, later VPN connections generate 2FA codes automatically.
 
-- Linux/macOS: run the CLI binary from the extracted folder
-- Windows: run `SealSuite.exe`
+## Verify a download
 
-You can also pass a config file path on the command line when you want to use a custom location.
+GitHub release asset metadata includes a SHA-256 digest for each uploaded file. Compare the digest after download.
 
-## Verification guide
+macOS or Linux:
 
-Use a local checksum and archive test after download.
+```bash
+shasum -a 256 <archive>
+```
 
-### SHA-256
+Windows PowerShell:
 
-- macOS/Linux: `shasum -a 256 <archive>` or `sha256sum <archive>`
-- Windows PowerShell: `Get-FileHash <archive> -Algorithm SHA256`
+```powershell
+Get-FileHash <archive> -Algorithm SHA256
+```
 
-Save the hash in your deployment record, then compare it with your own approved reference for the same release.
+Check archive integrity before deployment:
 
-### Archive integrity
+```bash
+tar -tJf <archive>.tar.xz
+```
 
-- Linux/macOS tarball: `tar -tJf <archive>`
-- Windows zip: `Expand-Archive <archive> -DestinationPath <tmpdir>`
+Windows PowerShell:
 
-A successful extraction confirms the archive structure and file list.
+```powershell
+Expand-Archive <archive>.zip -DestinationPath <tmpdir>
+```
+
+## Security notes
+
+Keep real config files private. Treat `password`, `code`, cookies, private keys, and VPN tokens as secrets. Redact usernames, domains, cookies, tokens, OTP codes, private keys, and full response bodies before sharing logs.
