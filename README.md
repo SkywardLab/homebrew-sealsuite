@@ -6,9 +6,9 @@ SealSuite is a standalone SealSuite (Corplink) VPN client with a bundled WireGua
 
 ## Latest release
 
-Latest version: `v1.5.1`
+Latest version: `v1.6.1`
 
-Release page: https://github.com/SkywardLab/SealSuite-releases/releases/tag/v1.5.1
+Release page: https://github.com/SkywardLab/SealSuite-releases/releases/tag/v1.6.1
 
 All releases: https://github.com/SkywardLab/SealSuite-releases/releases
 
@@ -20,30 +20,24 @@ Choose the GUI package for the desktop app. Choose the CLI package for terminal 
 
 | Platform | CPU | Asset |
 | --- | --- | --- |
-| Linux | amd64 | [`SealSuite-GUI-v1.5.1-linux-amd64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-GUI-v1.5.1-linux-amd64.tar.xz) |
-| Linux | arm64 | [`SealSuite-GUI-v1.5.1-linux-arm64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-GUI-v1.5.1-linux-arm64.tar.xz) |
-| macOS | Apple Silicon | [`SealSuite-GUI-v1.5.1-macos-arm64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-GUI-v1.5.1-macos-arm64.tar.xz) |
-| macOS | Intel | [`SealSuite-GUI-v1.5.1-macos-x86_64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-GUI-v1.5.1-macos-x86_64.tar.xz) |
-| Windows | amd64 | [`SealSuite-GUI-v1.5.1-windows-amd64.zip`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-GUI-v1.5.1-windows-amd64.zip) |
-| Windows | arm64 | [`SealSuite-GUI-v1.5.1-windows-arm64.zip`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-GUI-v1.5.1-windows-arm64.zip) |
+| Linux | amd64 | [`SealSuite-GUI-v1.6.1-linux-amd64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.6.1/SealSuite-GUI-v1.6.1-linux-amd64.tar.xz) |
+| macOS | Apple Silicon | [`SealSuite-GUI-v1.6.1-macos-arm64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.6.1/SealSuite-GUI-v1.6.1-macos-arm64.tar.xz) |
+| Windows | amd64 | [`SealSuite-GUI-v1.6.1-windows-amd64.zip`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.6.1/SealSuite-GUI-v1.6.1-windows-amd64.zip) |
 
 ### CLI packages
 
 | Platform | CPU | Asset |
 | --- | --- | --- |
-| Linux | amd64 | [`SealSuite-CLI-v1.5.1-linux-amd64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-CLI-v1.5.1-linux-amd64.tar.xz) |
-| Linux | arm64 | [`SealSuite-CLI-v1.5.1-linux-arm64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-CLI-v1.5.1-linux-arm64.tar.xz) |
-| macOS | Apple Silicon | [`SealSuite-CLI-v1.5.1-macos-arm64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-CLI-v1.5.1-macos-arm64.tar.xz) |
-| macOS | Intel | [`SealSuite-CLI-v1.5.1-macos-x86_64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-CLI-v1.5.1-macos-x86_64.tar.xz) |
-| Windows | amd64 | [`SealSuite-CLI-v1.5.1-windows-amd64.zip`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-CLI-v1.5.1-windows-amd64.zip) |
-| Windows | arm64 | [`SealSuite-CLI-v1.5.1-windows-arm64.zip`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/SealSuite-CLI-v1.5.1-windows-arm64.zip) |
+| Linux | amd64 | [`SealSuite-CLI-v1.6.1-linux-amd64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.6.1/SealSuite-CLI-v1.6.1-linux-amd64.tar.xz) |
+| macOS | Apple Silicon | [`SealSuite-CLI-v1.6.1-macos-arm64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.6.1/SealSuite-CLI-v1.6.1-macos-arm64.tar.xz) |
+| Windows | amd64 | [`SealSuite-CLI-v1.6.1-windows-amd64.zip`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.6.1/SealSuite-CLI-v1.6.1-windows-amd64.zip) |
 
 ### Arch Linux package
 
 | Package | Asset |
 | --- | --- |
-| Runtime package | [`sealsuite-1.5.1-1-x86_64.pkg.tar.zst`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/sealsuite-1.5.1-1-x86_64.pkg.tar.zst) |
-| Debug package | [`sealsuite-debug-1.5.1-1-x86_64.pkg.tar.zst`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.5.1/sealsuite-debug-1.5.1-1-x86_64.pkg.tar.zst) |
+| Runtime package | [`sealsuite-1.6.1-1-x86_64.pkg.tar.zst`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.6.1/sealsuite-1.6.1-1-x86_64.pkg.tar.zst) |
+| Debug package | [`sealsuite-debug-1.6.1-1-x86_64.pkg.tar.zst`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.6.1/sealsuite-debug-1.6.1-1-x86_64.pkg.tar.zst) |
 
 ## Run SealSuite
 
@@ -61,7 +55,9 @@ Windows PowerShell:
 .\SealSuite.exe .\config.json
 ```
 
-The GUI relaunches itself with administrator privileges when WireGuard or DNS setup needs system networking access. The CLI also relaunches with root or administrator privileges when required.
+The GUI relaunches only its tunnel helper with administrator privileges when WireGuard or DNS setup needs system networking access. The CLI relaunches with root or administrator privileges when required.
+
+Linux desktop users need a graphical privilege prompt provider such as `pkexec` for GUI tunnel startup. Terminal CLI runs can use `sudo`.
 
 ## Configuration
 
@@ -93,11 +89,11 @@ Useful optional fields:
 | --- | --- | --- |
 | `vpn_server_name` | `null` | Exact VPN `en_name` to select. |
 | `vpn_select_strategy` | GUI selection, or `default` in non-TTY runs | `default` chooses the first pingable server; `latency` chooses the lowest-latency server. |
-| `use_vpn_dns` | `false` | Applies VPN DNS while the tunnel runs. |
+| `use_vpn_dns` | `true` | Applies VPN DNS while the tunnel runs. |
 | `auto_setup_routes` | `true` | Automatically configures routes from the VPN response. |
 | `route_mode` | `split` | Route mode saved in config. |
 | `vpn_disallowed_routes` | `null` | CIDR routes carved out of WireGuard allowed IPs and OS route setup. |
-| `force_protocol` | `null` | Optional WireGuard transport override. Use `udp` or `tcp`. |
+| `force_protocol` | `null` | Optional WireGuard transport override. Use `udp` or `tcp`; unset follows supported server protocol modes. |
 | `verify_tls` | `true` | TLS certificate verification. |
 | `debug_wg` | `false` | Enables verbose WireGuard logs. |
 | `state` | `null` | Login state cache. Set to `Init` to force a fresh login. |
