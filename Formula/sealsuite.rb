@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
+# Installs the SealSuite CLI and defines its user-level SOCKS5 service.
 class Sealsuite < Formula
-  desc "SealSuite VPN client with userspace SOCKS5 mode"
+  desc "VPN client with userspace SOCKS5 mode"
   homepage "https://github.com/SkyLee365/corplink-py"
   url "https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.6.2/SealSuite-CLI-v1.6.2-macos-arm64.tar.xz"
   version "1.6.2"
@@ -50,6 +53,6 @@ class Sealsuite < Formula
 
   test do
     assert_match "Path to config file", shell_output("#{bin}/SealSuite --help")
-    assert_predicate etc/"sealsuite/config.json.example", :exist?
+    assert_path_exists etc/"sealsuite/config.json.example"
   end
 end
