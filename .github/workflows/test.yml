@@ -1,0 +1,26 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  formula:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v6
+      - name: update homebrew
+        run: brew update
+      - name: style formula
+        run: brew style ./Formula/sealsuite.rb
+      - name: audit formula
+        run: brew audit --strict ./Formula/sealsuite.rb
+      - name: install formula
+        run: brew install --formula ./Formula/sealsuite.rb
+      - name: test formula
+        run: brew test sealsuite
+      - name: inspect service definition
+        run: brew services info sealsuite
