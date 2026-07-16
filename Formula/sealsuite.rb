@@ -14,7 +14,7 @@ class Sealsuite < Formula
   def install
     bin.install "SealSuite"
     (etc/"sealsuite").install "config.json" => "config.json.release-example"
-    (etc/"sealsuite/config.json.example").write <<~JSON
+    (buildpath/"config.json.example").write <<~JSON
       {
         "company_name": "company code name",
         "username": "your_name",
@@ -23,6 +23,7 @@ class Sealsuite < Formula
         "socks5_listen": "127.0.0.1:1080"
       }
     JSON
+    (etc/"sealsuite").install "config.json.example"
   end
 
   def caveats
