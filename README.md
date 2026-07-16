@@ -92,6 +92,7 @@ Useful optional fields:
 | `use_vpn_dns` | `true` | Applies VPN DNS while the tunnel runs. |
 | `auto_setup_routes` | `true` | Automatically configures routes from the VPN response. |
 | `route_mode` | `split` | Route mode saved in config. |
+| `vpn_allowed_routes` | `null` | Optional CIDR allowlist intersected with server routes before WireGuard allowed IPs and OS route setup. Empty list means no VPN routes. |
 | `vpn_disallowed_routes` | `null` | CIDR routes carved out of WireGuard allowed IPs and OS route setup. |
 | `force_protocol` | `null` | Optional WireGuard transport override. Use `udp` or `tcp`; unset follows supported server protocol modes. |
 | `verify_tls` | `true` | TLS certificate verification. |
