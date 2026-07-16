@@ -14,12 +14,14 @@ jobs:
       - uses: actions/checkout@v6
       - name: update homebrew
         run: brew update
+      - name: register checkout as tap
+        run: brew tap --custom-remote SkywardLab/sealsuite "$GITHUB_WORKSPACE"
       - name: style formula
-        run: brew style ./Formula/sealsuite.rb
+        run: brew style SkywardLab/sealsuite/sealsuite
       - name: audit formula
-        run: brew audit --strict ./Formula/sealsuite.rb
+        run: brew audit --strict SkywardLab/sealsuite/sealsuite
       - name: install formula
-        run: brew install --formula ./Formula/sealsuite.rb
+        run: brew install SkywardLab/sealsuite/sealsuite
       - name: test formula
         run: brew test sealsuite
       - name: inspect service definition
