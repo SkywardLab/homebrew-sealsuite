@@ -6,6 +6,7 @@ Homebrew tap for the SealSuite CLI on Apple Silicon macOS. The service configura
 
 ```bash
 brew tap SkywardLab/sealsuite
+brew trust SkywardLab/sealsuite
 brew install sealsuite
 ```
 
