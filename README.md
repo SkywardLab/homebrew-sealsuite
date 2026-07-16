@@ -6,9 +6,9 @@ SealSuite is a standalone SealSuite (Corplink) VPN client with a bundled WireGua
 
 ## Latest release
 
-Latest version: `v1.7.0`
+Latest version: `v1.7.1`
 
-Release page: https://github.com/SkywardLab/SealSuite-releases/releases/tag/v1.7.0
+Release page: https://github.com/SkywardLab/SealSuite-releases/releases/tag/v1.7.1
 
 All releases: https://github.com/SkywardLab/SealSuite-releases/releases
 
@@ -20,24 +20,24 @@ Choose the GUI package for the desktop app. Choose the CLI package for terminal 
 
 | Platform | CPU | Asset |
 | --- | --- | --- |
-| Linux | amd64 | [`SealSuite-GUI-v1.7.0-linux-amd64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.0/SealSuite-GUI-v1.7.0-linux-amd64.tar.xz) |
-| macOS | Apple Silicon | [`SealSuite-GUI-v1.7.0-macos-arm64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.0/SealSuite-GUI-v1.7.0-macos-arm64.tar.xz) |
-| Windows | amd64 | [`SealSuite-GUI-v1.7.0-windows-amd64.zip`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.0/SealSuite-GUI-v1.7.0-windows-amd64.zip) |
+| Linux | amd64 | [`SealSuite-GUI-v1.7.1-linux-amd64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.1/SealSuite-GUI-v1.7.1-linux-amd64.tar.xz) |
+| macOS | Apple Silicon | [`SealSuite-GUI-v1.7.1-macos-arm64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.1/SealSuite-GUI-v1.7.1-macos-arm64.tar.xz) |
+| Windows | amd64 | [`SealSuite-GUI-v1.7.1-windows-amd64.zip`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.1/SealSuite-GUI-v1.7.1-windows-amd64.zip) |
 
 ### CLI packages
 
 | Platform | CPU | Asset |
 | --- | --- | --- |
-| Linux | amd64 | [`SealSuite-CLI-v1.7.0-linux-amd64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.0/SealSuite-CLI-v1.7.0-linux-amd64.tar.xz) |
-| macOS | Apple Silicon | [`SealSuite-CLI-v1.7.0-macos-arm64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.0/SealSuite-CLI-v1.7.0-macos-arm64.tar.xz) |
-| Windows | amd64 | [`SealSuite-CLI-v1.7.0-windows-amd64.zip`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.0/SealSuite-CLI-v1.7.0-windows-amd64.zip) |
+| Linux | amd64 | [`SealSuite-CLI-v1.7.1-linux-amd64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.1/SealSuite-CLI-v1.7.1-linux-amd64.tar.xz) |
+| macOS | Apple Silicon | [`SealSuite-CLI-v1.7.1-macos-arm64.tar.xz`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.1/SealSuite-CLI-v1.7.1-macos-arm64.tar.xz) |
+| Windows | amd64 | [`SealSuite-CLI-v1.7.1-windows-amd64.zip`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.1/SealSuite-CLI-v1.7.1-windows-amd64.zip) |
 
 ### Arch Linux package
 
 | Package | Asset |
 | --- | --- |
-| Runtime package | [`sealsuite-1.7.0-1-x86_64.pkg.tar.zst`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.0/sealsuite-1.7.0-1-x86_64.pkg.tar.zst) |
-| Debug package | [`sealsuite-debug-1.7.0-1-x86_64.pkg.tar.zst`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.0/sealsuite-debug-1.7.0-1-x86_64.pkg.tar.zst) |
+| Runtime package | [`sealsuite-1.7.1-1-x86_64.pkg.tar.zst`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.1/sealsuite-1.7.1-1-x86_64.pkg.tar.zst) |
+| Debug package | [`sealsuite-debug-1.7.1-1-x86_64.pkg.tar.zst`](https://github.com/SkywardLab/SealSuite-releases/releases/download/v1.7.1/sealsuite-debug-1.7.1-1-x86_64.pkg.tar.zst) |
 
 ## Run SealSuite
 
@@ -110,6 +110,7 @@ Environment variables override selected config values:
 | `CORPLINK_USERNAME` | `username` |
 | `CORPLINK_PASSWORD` | `password` |
 | `CORPLINK_PLATFORM` | `platform` |
+| `CORPLINK_LOG_STREAM` | Set to `stdout` to send application logs to standard output. The default stream is standard error. |
 
 ## First login
 
