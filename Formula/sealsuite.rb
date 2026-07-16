@@ -12,9 +12,8 @@ class Sealsuite < Formula
   depends_on :macos
 
   def install
-    bin.install "SealSuite-CLI-v1.6.2-macos-arm64/SealSuite"
-    (etc/"sealsuite").install \
-      "SealSuite-CLI-v1.6.2-macos-arm64/config.json" => "config.json.release-example"
+    bin.install "SealSuite"
+    (etc/"sealsuite").install "config.json" => "config.json.release-example"
     (etc/"sealsuite/config.json.example").write <<~JSON
       {
         "company_name": "company code name",
