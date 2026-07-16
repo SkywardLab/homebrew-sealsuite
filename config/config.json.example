@@ -1,0 +1,7 @@
+{
+  "company_name": "company code name",
+  "username": "your_name",
+  "password": "your_pass",
+  "platform": "ldap",
+  "socks5_listen": "127.0.0.1:1080"
+}
